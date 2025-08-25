@@ -1,8 +1,52 @@
-body {
-    background-color: lightblue;
+/********************* global font settings for pages ********************/
+html *
+{
+   font-size: 1em ;
+ /* font-size: calc(1em + 0.390625vw);*/
+   color: rgb(0, 0, 0) ;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+
+/********************************** index page *************************/
+/********* settings for all main headings all pages ***********/
+#mainHeading{
+  display:block;
+  text-align: center;
+  text-wrap: nowrap;
+  height: 8vh; 
+  font-size: calc(5vw + 0.390625vw);
+  font-weight: bold;
+  background-color:rgb(255, 255, 255);
+  color:rgb(0, 0, 139);
+  border-style:none; 
+  margin-top: 1vh;
+  margin-bottom: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 2px 2px 8px rgb(0, 0, 0);
+     }  
+
+/***** settings for all main all pages ************/
+#main{
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
-h1 {
-    color: navy;
-    text-align: center;
-}   
+/* to center all elements using class grouping*/
+.center {
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+
+ /****************settings for all logo all pages***************/
+#imgMainLogo{
+  height: 10vh; 
+  border: 1px solid rgb(0, 0, 0); 
+  border-radius: 4px;  
+  padding: 5px; 
+  max-width:100%;
+  height:auto;
+}
