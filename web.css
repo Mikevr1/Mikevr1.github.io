@@ -7,7 +7,14 @@ html *
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
  
+body {
+  
+  background-image: url("/images/galaxy.png");
+  background-repeat: repeat;
+  background-size: auto;
+  
 
+}
 /********************************** index page *************************/
 /********* settings for all main headings all pages ***********/
 #mainHeading{
@@ -15,10 +22,10 @@ html *
   text-align: center;
   text-wrap: nowrap;
   height: 8vh; 
-  font-size: calc(5vw + 0.390625vw);
+  font-size: calc(10vw + 0.390625vw);
   font-weight: bold;
-  background-color:rgb(255, 255, 255);
-  color:rgb(0, 0, 139);
+  background-color:rgb(30, 10, 62);
+  color:rgb(255, 255, 0);
   border-style:none; 
   margin-top: 1vh;
   margin-bottom: 10vh;
